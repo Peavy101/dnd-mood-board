@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 10px;
+    height: 100px;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.town {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+.tavern {
+    background-color: brown;
+    border: 1px solid black;
+}
+.dungeon {
+    background-color: lightslategrey;
+    border: 1px solid black;
+}
+.nature {
+    background-color: lightgreen;
+    border: 1px solid black;
+}
