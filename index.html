@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Mansalva&family=Poppins&family=Roboto&family=Tangerine:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>DND Mood Board</title>
 </head>
 <body>
     <h1>DND Mood Board</h1>
     <main>
-        <div class="town">
-            TOWN
-        </div>
-        <div class="tavern">
-            TAVERN
-        </div>
-        <div class="dungeon">
-            DUNGEON
-        </div>
-        <div class="nature">
-            NATURE
-        </div>
+        <button id="town">
+            <img src="play.svg" alt="play icon" id="townIcon" width="60px">
+        </button>
+        <button id="tavern">
+            <img src="play.svg" alt="play icon" id="tavernIcon" width="60px">
+        </button>
+        <button id="dungeon">
+            <img src="play.svg" alt="play icon" id="dungeonIcon" width="60px">
+        </button>
+        <button id="nature">
+            <img src="play.svg" alt="play icon" id="natureIcon" width="60px">
+        </button>
     </main>
+    <div class="mixer">
+        <p>music</p>
+        <input type="range" min="1" max="100" value="50" id="musicVolume">
+        <p>ambience</p>
+        <input type="range" min="1" max="100" value="50" id="ambienceVolume">
+    </div>
+    <audio src="townMusic.mp3" id="townMusic" class="music"></audio>
+    <audio src="townAmbience.mp3" id="townAmbience" class="ambience"></audio>
+    <script src="main.js"></script>
 </body>
 </html>

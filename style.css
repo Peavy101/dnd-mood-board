@@ -3,12 +3,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: pink;
+    font-family: 'Mansalva', sans-serif;
 }
 
 main {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
-    gap: 10px;
+    gap: 20px;
     height: 100px;
 }
 
@@ -18,19 +20,35 @@ main > div {
     align-items: center;
 }
 
-.town {
+#town {
     background-color: aquamarine;
     border: 1px solid black;
+    cursor: pointer;
+    border-radius: 15px;
 }
-.tavern {
+#tavern {
     background-color: brown;
     border: 1px solid black;
+    cursor: pointer;
+    border-radius: 15px;
 }
-.dungeon {
+#dungeon {
     background-color: lightslategrey;
     border: 1px solid black;
+    cursor: pointer;
+    border-radius: 15px;
 }
-.nature {
+#nature {
     background-color: lightgreen;
     border: 1px solid black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.mixer {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
