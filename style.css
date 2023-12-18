@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: pink;
     font-family: 'Mansalva', sans-serif;
 }
 
@@ -12,6 +11,17 @@ main {
     grid-template-columns: 100px 100px 100px 100px;
     gap: 20px;
     height: 100px;
+    margin: 25px;
+}
+
+h1 {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+p {
+    height: 5px;
 }
 
 main > div {
@@ -51,4 +61,7 @@ main > div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 15px;
 }
